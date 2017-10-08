@@ -1,0 +1,8 @@
+version: "3"
+services:
+  python-env:
+    image: udacity/carnd-term1-starter-kit
+    ports:
+      - "8888:8888"
+    volumes:
+      - ".:/src"
